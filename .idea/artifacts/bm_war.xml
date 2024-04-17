@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" external-system-id="Maven" name="bm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bm-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bm:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib" />
+      </element>
+    </root>
+  </artifact>
+</component>
