@@ -12,6 +12,7 @@
 html,
 body {
   height: 100%;
+
 }
 .layout-boxed html,
 .layout-boxed body {
@@ -22,6 +23,9 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
+  background: url("https://seopic.699pic.com/photo/50050/9906.jpg_wh1200.jpg")
+  no-repeat;
+  background-size: 100% 150%;
 }
 /* Layout */
 .wrapper {
