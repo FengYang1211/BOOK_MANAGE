@@ -169,7 +169,7 @@ h6,
 }
 /* General Links */
 a {
-  color: #3c8dbc;
+  color: #b7f503;
 }
 a:hover,
 a:active,
@@ -3236,11 +3236,11 @@ table.text-center th {
 }
 .login-logo a,
 .register-logo a {
-  color: #444;
+  color: #ed1212ad;
 }
 .login-page,
 .register-page {
-  background: #2fb8d996;
+  background: #d2d6de;
 }
 .login-box,
 .register-box {

@@ -35,13 +35,13 @@
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="<%=basePath%>img/user2-160x160.jpg" class="user-image" alt="User Image">
+                        <img src="<%=basePath%>img/user.jpg" class="user-image" alt="User Image">
                         <span class="hidden-xs"><%=reader.getRName()%></span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header" data-stopPropagation = "true">
-                            <img src="<%=basePath%>img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                            <img src="<%=basePath%>img/user.jpg" class="img-circle" alt="User Image">
                             <p style="color: #0d6aad">
                                 <%=reader.getRName()%>
                                 <small >账户余额 <span id="accountMoney"><%=reader.getBalance()/100.0%></span>元 <a class="fa fa-refresh" onclick="refreshMoney()"></a></small>

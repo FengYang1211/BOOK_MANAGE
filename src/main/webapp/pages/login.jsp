@@ -21,7 +21,7 @@
 <body class="hold-transition login-page">
     <div class="login-box" id="app">
         <div class="login-logo">
-            <a href="<%=basePath%>pages/reader/index.jsp"><b>BookRentalSystemLogin</b></a>
+                <a href="<%=basePath%>pages/reader/index.jsp"><b>Login System</b></a>
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body" id="app">
@@ -58,7 +58,7 @@
 
             </form>
             <div style="display: flex; justify-content: space-around;">
-                <div> <a href="<%=basePath%>pages/reader/register.jsp" class="text-center">NewUserRegistration</a></div>
+                <div> <a href="<%=basePath%>pages/reader/register.jsp" class="text-center">Registration</a></div>
             </div>
         </div>
         <!-- /.login-box-body -->
