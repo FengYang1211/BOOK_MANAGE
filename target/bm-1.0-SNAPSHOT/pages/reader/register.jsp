@@ -28,7 +28,7 @@
     </div>
 
     <div class="register-box-body">
-        <p class="login-box-msg">NewUserRegistration</p>
+        <p class="login-box-msg">Registration</p>
         <form @submit.prevent="submitFrom">
             <div class="form-group has-feedback">
                 <input type="text" placeholder="账号：4_16字母、数字、下划线、减号"  class="form-control" v-model="userInfo.account" name="account" v-on:change="existAccountVerify" >
