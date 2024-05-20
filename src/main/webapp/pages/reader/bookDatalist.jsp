@@ -182,7 +182,7 @@
                                 <td class="text-center">
                                     <button type="button" class="btn bg-olive btn-xs"
                                             @click=" borrowBookIndex = index" data-backdrop="false" data-toggle="modal"
-                                            data-target="#modifyBook">预定</button>
+                                            data-target="#modifyBook">Borrow</button>
                                 </td>
                             </tr>
                             <tr v-if="showMessage"  v-cloak style="text-align: center;font-size: 1.5em">

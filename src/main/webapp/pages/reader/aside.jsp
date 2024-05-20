@@ -27,11 +27,13 @@
                     <i class="fa fa-folder"></i> <span>BooksToBePickedUp</span>
                 </a>
             </li>
+            <!--
                <li class="treeview">
                 <a href="<%=basePath%>pages/reader/borrowBooks.jsp">
                     <i class="fa fa-folder"></i> <span>OnLoan</span>
                 </a>
-            </li>
+            </li> -->
+
             <li class="treeview">
                 <a href="<%=basePath%>pages/reader/reserveGiveBack.jsp">
                     <i class="fa fa-folder"></i> <span>ReturnInformation</span>

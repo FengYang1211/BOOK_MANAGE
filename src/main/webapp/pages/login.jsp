@@ -29,11 +29,11 @@
 
             <form @submit.prevent="submitFrom">
                 <div class="form-group has-feedback">
-                    <input type="text" class="form-control" v-model="userLogin.account" required name="account" placeholder="账号/邮箱">
+                    <input type="text" class="form-control" v-model="userLogin.account" required name="account" placeholder="Account Number">
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <input type="password" class="form-control" v-model="userLogin.password" required placeholder="密码">
+                    <input type="password" class="form-control" v-model="userLogin.password" required placeholder="Code">
                     <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 </div>
                 <div style="display: flex; justify-content: space-around;" class="form-group has-feedback">
@@ -48,7 +48,7 @@
                 <div class="row"  >
                     <div class="col-xs-8">
                         <div >
-                            <label v-on:click="userLogin.autoLogin = !userLogin.autoLogin;" ><input type="checkbox" name="auotoLogin" v-model="userLogin.autoLogin" > 记住 下次自动登录</label>
+                            <label v-on:click="userLogin.autoLogin = !userLogin.autoLogin;" ><input type="checkbox" name="auotoLogin" v-model="userLogin.autoLogin" > Automatic Login</label>
                         </div>
                     </div>
                     <div class="col-xs-4">

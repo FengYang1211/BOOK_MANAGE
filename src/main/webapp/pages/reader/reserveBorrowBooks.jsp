@@ -149,7 +149,7 @@
                             <div class="form-group form-inline">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-default" @click="deleteBooks"
-                                            title="取消预定"><i class="fa fa-check"></i> CancelReservation
+                                            title="取消预定"><i class="fa fa-check"></i> ReturnBack
                                     </button>
                                     <button type="button" @click="getBooksAndReloadPageNum" class="btn btn-default"
                                             title="刷新"><i class="fa fa-refresh"></i> Flushed
@@ -215,7 +215,7 @@
                                             data-target="#modifyBook">ModifyDays
                                     </button>
                                     <button type="button" class="btn bg-red btn-xs"
-                                            @click="deleteBook(index)">CancelReservation
+                                            @click="deleteBook(index)">ReturnBack
                                     </button>
                                 </td>
                             </tr>
