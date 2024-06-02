@@ -166,13 +166,13 @@
                         <form id="searchForm">
                             <div class="col-md-6 form-group" style="display: flex;" v-cloak>
                                 <div class="col-md-2 data" >
-                                    <input type="text"  name="bName" autocomplete="off" required class="form-control"  placeholder="图书名">
+                                    <input type="text"  name="bName" autocomplete="off" required class="form-control"  placeholder="BookName">
                                 </div>
                                 <div class="col-md-2 data" >
-                                    <input type="text"  name="rName" autocomplete="off" required class="form-control"  placeholder="读者名">
+                                    <input type="text"  name="rName" autocomplete="off" required class="form-control"  placeholder="ReaderName">
                                 </div>
                                 <div class="col-md-2 data" style="display: flex;">
-                                    <input type="number" name="rbbId" autocomplete="off" required class="form-control" @keydown="verifyNum($event)" placeholder="编号" >
+                                    <input type="number" name="rbbId" autocomplete="off" required class="form-control" @keydown="verifyNum($event)" placeholder="ID" >
                                 </div>
                                 <button type="button" @click="searchBooks" style="display: inline-block; margin-right: 5px;" title="搜索" class="btn btn-default">Search</button>
                                 <button type="reset" style="display: inline-block;" title="搜索" class="btn btn-default">Reset</button>

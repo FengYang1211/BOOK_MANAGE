@@ -138,13 +138,13 @@
                                     </select>
                                 </div>
                                 <div class="col-md-2 data" >
-                                    <input type="text"  name="name" autocomplete="off" required class="form-control"  placeholder="图书名">
+                                    <input type="text"  name="name" autocomplete="off" required class="form-control"  placeholder="BookName">
                                 </div>
                                 <div class="col-md-2 data" >
-                                    <input type="text"  name="publisher" autocomplete="off" required class="form-control"  placeholder="出版社">
+                                    <input type="text"  name="publisher" autocomplete="off" required class="form-control"  placeholder="Press">
                                 </div>
                                 <div class="col-md-2 data" style="display: flex;">
-                                    <input type="search" name="number" autocomplete="off" required class="form-control"  placeholder="编号" >
+                                    <input type="search" name="number" autocomplete="off" required class="form-control"  placeholder="ID" >
                                 </div>
                                 <button type="button" @click="searchBooks" style="display: inline-block; margin-right: 5px;" title="搜索" class="btn btn-default">Search</button>
                                 <button type="reset" style="display: inline-block;" onclick="$('.select2-selection__rendered').text('所有类别');" title="搜索" class="btn btn-default">Reset</button>

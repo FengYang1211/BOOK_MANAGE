@@ -149,7 +149,7 @@
                             <div class="form-group form-inline">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-default" @click="deleteBooks"
-                                            title="取消预定"><i class="fa fa-check"></i> ReturnBack
+                                            title="取消预定"><i class="fa fa-check"></i> Cancel
                                     </button>
                                     <button type="button" @click="getBooksAndReloadPageNum" class="btn btn-default"
                                             title="刷新"><i class="fa fa-refresh"></i> Flushed
@@ -161,11 +161,11 @@
                             <div class="col-md-6 form-group" style="display: flex;" v-cloak>
                                 <div class="col-md-2 data">
                                     <input type="text" name="bName" autocomplete="off" required class="form-control"
-                                           placeholder="图书名">
+                                           placeholder="BookName">
                                 </div>
                                 <div class="col-md-2 data" style="display: flex;">
                                     <input type="text" name="number" autocomplete="off" required
-                                           class="form-control"  placeholder="图书编号">
+                                           class="form-control"  placeholder="ID">
                                 </div>
                                 <button type="button" @click="searchBooks"
                                         style="display: inline-block; margin-right: 5px;" title="搜索"
@@ -215,7 +215,7 @@
                                             data-target="#modifyBook">ModifyDays
                                     </button>
                                     <button type="button" class="btn bg-red btn-xs"
-                                            @click="deleteBook(index)">ReturnBack
+                                            @click="deleteBook(index)">Cancel
                                     </button>
                                 </td>
                             </tr>
@@ -296,7 +296,7 @@
                                     <input type="hidden" name="rbbId" :value="books[modifyBookIndex].rbbId">
                                     <div class="col-md-4 title">BorrowingDays</div>
                                     <div class="col-md-8 data">
-                                        <input type="number" required min="0" class="form-control" placeholder="借阅天数"
+                                        <input type="number" required min="0" class="form-control" placeholder="Days"
                                                @keydown="verifyNum($event)" name="remainingDays"
                                                v-model="remainingDaysModify">
                                     </div>
